@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Muku9812\\Nepalidate\\": "src"
+            "Pratiksh\\Nepalidate\\": "src"
         },
         "files": [
             "src/Helpers/NepaliDateHelper.php"
@@ -40,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Muku9812\\Nepalidate\\Tests\\": "tests"
+            "Pratiksh\\Nepalidate\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Muku9812\\Nepalidate\\Providers\\NepalidateServiceProvider"
+                "Pratiksh\\Nepalidate\\Providers\\NepalidateServiceProvider"
             ],
             "aliases": {
-                "Nepalidate": "Muku9812\\Nepalidate\\Facades\\NepaliDate"
+                "Nepalidate": "Pratiksh\\Nepalidate\\Facades\\NepaliDate"
             }
         }
     }
