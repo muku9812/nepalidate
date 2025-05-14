@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Muku9812\\Nepalidate\\Providers\\NepalidateServiceProvider"
+                "muku9812\\Nepalidate\\Providers\\NepalidateServiceProvider"
             ],
             "aliases": {
-                "Nepalidate": "Muku9812\\Nepalidate\\Facades\\NepaliDate"
+                "Nepalidate": "muku9812\\Nepalidate\\Facades\\NepaliDate"
             }
         }
     }
